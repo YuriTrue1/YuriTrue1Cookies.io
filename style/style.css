@@ -1,0 +1,28 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+.mainFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+.flexStyle{
+    width: 25%;
+
+}
+.flexStyle button{
+    border: orange solid;
+    background-color: peru;
+    margin:auto,0;
+}
+.flexStyle div p{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding: 5%;
+}
